@@ -1,0 +1,460 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+/*for top contact info*/
+.top{
+  background:#e8491d;
+  color:#ffffff;
+  overflow: hidden;
+  width: 100vw;  
+  min-height:40px;
+  
+  
+}
+
+.top a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size:10px;
+}
+
+.top nav ul li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+
+.top nav{
+  float:right;
+  margin-top:7px;
+  margin-bottom: 3px;
+}
+
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+.form_container{
+width:80%;
+margin: auto;
+overflow: hidden;
+
+				
+}
+/*for box in index.html*/
+.container_boxes{
+				background-color:#35424a;
+				color:#ffffff:
+				width:100vw;
+				
+}
+ul{
+  margin:0;
+  padding:0;
+} 
+
+/*for progress bar*/
+.progress {
+            background-color:#35424a;
+            height: 4px;
+            animation: load 1s ease-in-out 1;
+        }
+        
+.button_1{
+  height:38px;
+  background:#35424a;
+  border: white solid 3px;
+  padding-left: 20px;
+  padding-right:20px;
+  color:white;
+}
+/*for submit and search button*/
+button_1:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+.button_2{
+  height:38px;
+  background:#e8491d;
+  border: white solid 3px;
+  padding-left: 20px;
+  padding-right:20px;
+  color:white;
+}
+button_2:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+/*title in about and contact page*/
+.page-title{
+margin-top: 60px;
+color: #e8491d;}
+
+.page-title-contact{margin-top: 60px;
+color: #e8491d;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  
+}
+h3{
+color:#e8491d;
+}
+li h3{
+color:#35424a;
+}
+.dark_form{
+  padding:20px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:60px;
+  margin-bottom:60px;
+  
+  }
+  
+.bottom_up{padding:15px;
+				background-color:#35424a;
+}
+
+.box-heading{
+color: #e8491d;
+text-align: center;
+}
+.box{
+color:white
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+  border-top: white 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+form button a{
+				color: white;
+				text-decoration: none;
+			
+}
+form button a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+ 
+/* Showcase */
+#showcase{
+  min-height:400px;
+ 
+ background: url('https://i.ibb.co/qd4xKzY/wendy-scofield-Tjf-QR3-Jg-GG8-unsplash.jpg') no-repeat;
+ 
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase_about{
+  min-height:400px;
+ 
+ background: url('https://i.ibb.co/n8hVBRh/marcelo-leal-6pc-GTJDuf6-M-unsplash.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase_contact{
+  min-height:400px;
+ 
+ background: url('https://i.ibb.co/2tcZP75/diana-polekhina-ZBst-HWt9v-Lc-unsplash.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase_form{
+margin-bottom: 0;
+  min-height:400px;
+ background: url('https://i.ibb.co/gwCtkq9/patrick-tomasso-Oaqk7qq-Nh-c-unsplash.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase_doctor{
+  min-height:400px;
+ 
+ background: url('https://i.ibb.co/j5xqcFq/mehmet-turgut-kirkgoz-0-Zc-DPr-Bq-Cco-unsplash.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+.hospital_logo {
+margin-top: 40px;
+margin-bottom:0;
+padding: 0;
+
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#e8491d;  
+  border-bottom:white solid 3px ;
+  border-top:white solid 3px ;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:0;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float: right;
+  width:30%;
+  margin-top:57px;
+  margin-bottom: 60px;
+ 
+}
+aside#sidebar_doctor{
+			/*	float: none;*/
+		
+				width: 30%;
+				margin-top: 50px;
+				margin-left: 35%;
+}
+aside#sidebar_form{
+justify-content: center;
+  width:30%;
+  margin-top:40px;
+				
+				
+}
+/*for border in doctor and form page*/
+.dark_form{
+				border: #e8491d double 3px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+
+  float: left;
+  width:65%
+}
+article#main-col-service{margin-left:15vw;
+margin-top:80px;
+margin-bottom:80px;
+text-align: center;
+padding-top: 5px;;
+
+  background-color: #35424a;
+  width:65%;
+}
+
+/* Services */
+section#main-service
+ { 
+ background: url('https://i.ibb.co/Pj1bgbF/anne-nygard-j-ORjvha-UX40-unsplash.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+ul#services li{color: white;
+  list-style: none;
+  padding:20px;
+  border: white solid 3px;
+  margin-bottom:5px;
+  background: #e8491d;
+  
+}
+.service-box{
+background-color: #e8491d;
+}
+footer{
+  padding:20px;
+  margin-top:0;
+  color:#ffffff;
+  background-color:#35424a;
+  text-align: center;
+  border-top:#e8491d 3px solid;
+}
+/*Progress bar*/
+@keyframes load {
+            0% {
+                width: 0;
+            }
+
+            75% {
+                width: 90vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar,
+  aside#sidebar_doctor{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+/*captcha*/
+. reload-image{
+color: white;
+text-decoration: none;
+}
+#skip_CaptchaCode{width:150px;
+height:38px;
+font-size:25px;
+ maxlength="6"
+				
+				
+}
+.captcha-color {
+background-color:#e8491d; vertical-align:bottom;
+overflow: hidden;}
+.captcha{
+margin-left: 23%;
+}
+.division{font-size: 20px;
+				color: #e8491d;
+				font-weight:bolder;
+}
+
+.Slogan{
+
+font-size: 20px;
+margin-bottom: 15px;
+
+}
+.total-time{font-weight: bolder;
+
+color: white;
+margin-bottom: 40px;
+}
+
+

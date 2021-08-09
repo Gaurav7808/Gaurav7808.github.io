@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Brad Traversy">
+    <title>City hospital | Book an appointment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
+     
+   
+   
+   
+   
+  </head>
+  <body>
+ <div class="progress"></div>
+ <div class="top">
+		 <nav>
+		 				<ul>
+		 								<li><a href="#">EMERGENCY: +91 9876543210 / 01</a></li><li><a href="#">info@cityhospital.com</a></li>
+		 								</ul>
+		 								</nav>
+		</div>
+ 
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">CITY</span> Hospital</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About </a></li>
+            <li><a href="doctor.html">
+            				Doctors</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="showcase_form">
+    <div class=" form_container">
+    				<div id="sidebar_form">
+          <div class="dark_form">
+            <h3>BOOK AN APPOINTMENT</h3>
+            <form class="quote" target="_blank" method="GET">
+  						<div >
+  							<label>Patient Name</label><br>
+  							<select> <option> -- Option -- </option> <option> Mr </option> <option> Mrs
+ </option> <option>None</option>
+  						</select>
+  							<td>	<input type="text" placeholder="First Name"required>
+						<td><input type="text" placeholder="Last Name"required>
+  						
+  						</div>
+  						<br>
+  						<div>
+  							<label>Patient Email address</label><br>
+  							<input type="email" placeholder="Emial Address"required>
+  						</div>
+  						<br>
+  						<div>
+  							<label> Patient Mobile Number</label><br>
+  							<div>
+  							<input type="text" placeholder="Mobile no."required>
+  						</div>
+  						<br>
+  						<div>
+  							<label>Address</label><br>
+  							<td>	<input type="text" placeholder="City"required>
+  							<td><input type="text"placeholder="State">
+						<td><input type="text" placeholder="country"required>
+  						</div>
+  						<br>
+  						<div>
+  										
+  							<label>Appointment Date</label><br>
+  							<input type="date" id="appointment date" name="appointment date"required>
+  						</div>
+  						<br>
+  						<div>
+  							<label>Appointment Time Slot</label><br>
+  							<input type="time" placeholder="appointment time">
+  						</div>
+  						<br>
+  						<div><label>Gender</label><br>
+  						<select> <option> -- Sex -- </option> <option> Male </option> <option> Female
+ </option> <option>Transgender
+ </option> 
+  						</select>
+  						</div>
+  						<br>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						
+  	 						<!--For CAPTCHA-->
+  		
+
+<br>
+<div class="captcha">
+<table cellspacing="0"
+border="0"
+cellpadding="5"">
+<tbody><tr>
+    
+</tr>
+<tr class="captcha-color">
+    <td>
+        <input id="skip_CaptchaCode" name="skip_CaptchaCode" type="text"><br>
+        <b>Enter web form captcha code</b>
+    </td>
+    <td class="reload-image">
+        <a "href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span class="reload-image">Reload image</span></a><br>
+        <a href="https://www.SnapHost.com/captcha/ProCaptchaOverview.aspx"><img id="CaptchaImage" alt="Web Form Code" style="border-width:0px;" src="https://www.SnapHost.com/captcha/CaptchaImage.aspx?id=DEMO12345678"></a>
+        
+        <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js">        				
+        </script>
+        
+        <script type="text/javascript">
+            function ReloadCaptchaImage(captchaImageId) {
+                var obj = document.getElementById(captchaImageId);
+                var src = '' + obj.src;
+                obj.src = '';
+                var date = new Date();
+                var pos = src.indexOf('&rad=');
+                if (pos >= 0) { src = src.substr(0, pos); }
+                obj.src = src + '&rad=' + date.getTime();
+                return false;
+            }
+        </script>
+    </td>
+</tr>
+</tbody></table> 
+</div>
+<br><br>
+
+	<button class="button_2" type="submit">Submit</button>
+    
+<br>
+
+</form>
+</div>
+        
+
+
+					
+    
+    </section>
+    </div>
+    <footer>
+      <p>City Hospital, All Copyright &copy reserved by Gaurav Kumar </p>
+    </footer>
+  
+
+<section id="newsletter">
+      <div class="container">
+        <h1>Find A Doctor !</h1>
+        <form>
+             <button type="submit" class="button_1"><a href="doctor.html">CLICK HERE</a></button>
+        </form>
+      </div>
+    </section>
+    </body>
+    </html>
